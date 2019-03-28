@@ -1,0 +1,2 @@
+*SweetyGo* -- 172.17.0.2 - [2019-03-21 08:55:35] "GET / 200" "" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" - 9.750327ms
+*SweetyGo* -- 172.17.0.2 - [2019-03-21 08:55:54] "GET /posts/Hello-World 200" "http://amyang.xyz:8888/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" - 9.000964ms

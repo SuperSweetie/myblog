@@ -1,0 +1,24 @@
+{{ define "posts/show" }}
+    
+    {{ template "share/header" . }}
+        <div class="bg">
+                <div class="section">
+                    <div class="section-head">
+                      
+                    </div>
+                    <div class="section-content">
+                        <div class="posts">
+                            <article class="post">
+                                <div class="entry-content">
+                                    {{ .post.HTML | rmtag | unescaped }}
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            {{ template "share/footer" }}
+        </div>
+    </body>
+</html>
+
+{{end}}
